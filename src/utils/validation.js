@@ -11,7 +11,7 @@ const Validation = {
             return response;
         }
         return validation;
-    }
+    },
     delete(data) {
         const validation = validate.validate(data, Constraints.create);
         if (validation) {
